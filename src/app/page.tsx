@@ -20,10 +20,10 @@ export default function Home() {
       <div> {/* Container */} 
         <div>
           <form>
-            <input type="number" placeholder="Nota 1" />
-            <input type="number" placeholder="Nota 2" />
+            <input type="number" placeholder="Nota 1"/>
+            <input type="number" placeholder="Nota 2"/>
             <input type="number" placeholder="Nota 3"/>
-            <button>Calcular Nota</button>
+            <button onClick={calcularMedia}>Calcular Nota</button>
           </form>
         </div>
         <div>
